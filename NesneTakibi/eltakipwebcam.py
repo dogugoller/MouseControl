@@ -17,7 +17,7 @@ while True:  # kamera kapanana kadar döngüyü devam ettir
 
     success, img = camera.read()  # görüntü başarıyla alındı mı, alınan görüntü
 
-    img = cv2.flip(img, 1)
+    img = cv2.flip(img, 1) # aynalama yapıp imleci elin doğrultusunda götürmeye yarar
 
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  # mediapipe rgb kabul eder bu yüzden rgbye çevir
 
