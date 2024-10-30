@@ -1,1 +1,1 @@
-# MouseControl
+# Webcamda el hareketler ile mouse kontrol uygulaması.
